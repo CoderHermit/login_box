@@ -54,3 +54,11 @@
     background-color: blue;
     box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
 }
+input{
+    transition: transform 0.4s;
+    box-sizing: border-box;
+    display: inline-block;
+}
+input:hover{
+    transform: scale(1.05);
+}
